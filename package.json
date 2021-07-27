@@ -6,6 +6,9 @@
   "version": "1.0.0",
   "description": "",
   "main": "app.js",
+  "pkg": {
+    "assets": "node_modules/puppeteer-extra-plugin-stealth/**/*.*"
+  },
   "dependencies": {
     "express": "^4.16.2",
     "puppeteer": "^1.13.0",
